@@ -10,11 +10,16 @@
             margin: 0px;
             padding: 0px;
             box-sizing: border-box;
+            font-family:Arial, Helvetica, sans-serif;
+        }
+        #Foot{
+            border: 2px solid white;
         }
         .cta{
             background-color: blue;
-            background-image:linear-gradient(to right, #4b00ec, #255acd);
+            background-image:linear-gradient(to right, rgb(66,50,163), rgb(40,108,213));
             display: flex;
+            height: 8vh;
             justify-content: center;
             list-style: none;
             font-size: 18px;
@@ -67,7 +72,6 @@
             justify-content: center;
         }
         .nav-items{
-            /* border: 3px solid white;  */
             margin: 15px 5px;
             padding: 5px 10px;
             padding-top: 10px;;
@@ -75,7 +79,6 @@
             text-decoration: none;
             position: relative;
             font-size: 18px;
-            /* padding: 5px; */
         }
         #nav-hov:hover{
             color: rgb(36,112,204);
@@ -90,8 +93,6 @@
             border-radius: 5px;
             padding-left: 18x;
             padding-right: 18px;
-            /* position: absolute; */
-            /* bottom:10px; */
         }
         #nav-signup{
             background-color: white;
@@ -100,8 +101,67 @@
         #nav-drop{
             padding-bottom: 15px;
         }
-        #Section{
-            background-color: #4b00ec;
+        #sec{
+            background-color: rgb(2,4,43);
+            display: flex;
+            justify-content: center;
+        }
+        #sec-text{
+            color: white;
+            font-size: 45px;
+            font-weight: bold;
+            padding: 100px 0px;
+            margin: 10px;
+            position: relative;
+        }
+        #sec-bg{
+            margin: 10px;
+            position: relative;
+        }
+        #sec-bg-img{
+            width: 650px;
+        }
+        #sec-left-top{
+            margin: 3px;
+            margin-bottom: 30px;
+        }
+        #sec-left-mid{
+            padding-right: 358px;
+            margin: 3px;
+        }
+        .sec-left-m{
+            border: 2px solid rgb(97,206,166);
+        }
+        #sec-left-bottom{
+            /* border: 2px solid white; */
+            font-weight: normal;
+            font-size: 20px;
+            color: rgb(172,173,185);
+            margin: 3px;
+            margin-top: 30px;
+        }
+        .sec-left-b{
+            margin: 6px 0px;
+        }
+        #sec-left-signup{
+            font-size: 15px;
+            font-weight: normal;
+            /* margin: 30px 0px; */
+            /* border: 2px solid white; */
+            padding: 15px 0px;
+            margin-top: 30px;
+        }
+        #sec-left-signup-s{
+            color: white;
+            /* border: 2px solid white; */
+            margin: 30px 0px;
+            /* font-weight: bold; */
+            /* padding: 15px; */
+            background-color: rgb(43,132,234);
+            border-radius: 3px;
+            padding: 18px 22px;
+            text-decoration: none;
+
         }
     </style>
 </head>
@@ -109,7 +169,7 @@
     <header>
         <div>
             <ul class="cta">
-                <li><img src="./pos.avif" alt=""></li>
+                <li><img src="./images/pos.avif" alt=""></li>
                 <li class="cta-elements" id="cta-left">New</li>
                 <li class="cta-elements" id="cta-center-left"></li>
                 <li class="cta-elements" id="cta-center">Say hello to the future of In-Store payments with Razorpay POS!</li>
@@ -117,7 +177,7 @@
             </ul>
         </div>
         <nav class="navbar">
-            <a class="nav-items" href=""><img id="nav-img" src="LOGO.svg" alt="IMG"></a>
+            <a class="nav-items" href=""><img id="nav-img" src="./images/LOGO.svg" alt="IMG"></a>
             <a class="nav-items" id="nav-hov" href="">Payments</a>
             <a class="nav-items" id="nav-hov" href="">Banking+</a>
             <a class="nav-items" id="nav-hov" href="">Line of Credit</a>
@@ -125,12 +185,38 @@
             <a class="nav-items" id="nav-hov" href="">Resources</a>
             <a class="nav-items" id="nav-hov" href="">Support</a>
             <a class="nav-items" id="nav-hov" href="">Pricing</a>
-            <img class="nav-items" id="nav-drop" src="./bars-solid.svg" alt="ll"> 
+            <img class="nav-items" id="nav-drop" src="./images/bars-solid.svg" alt="ll"> 
             <a class="nav-items" id="nav-login" href="">Log In</a>
             <a class="nav-items" id="nav-signup" href="">Sign Up -></a>
         </nav>
     </header>
-    
+    <section id="sec">
+        <div id="sec-text">
+            <div id="sec-left-top">
+                <p>Power your finance,</p>
+                <p>grow your business</p>
+            </div>
+            <div id="sec-left-mid">
+                <p class="sec-left-m"></p>
+            </div>
+            <div id="sec-left-bottom" >
+                <p class="sec-left-b">Accept payments from customers. Automate </p>
+                <p class="sec-left-b">payouts to vendors & employees. Never run out </p>
+                <p class="sec-left-b">of working capital.</p>
+            </div>
+            <div id="sec-left-signup">
+                <a id="sec-left-signup-s" href="">Sign Up Now ->   </a>
+            </div>
+        </div>
+        <div id="sec-bg">
+            <img id="sec-bg-img" src="./images/bg.jpg" alt="This is Background Image">
+        </div>
+    </section>
+    <footer>
+        <div id="Foot">
+            This is the footer.
+        </div>
+    </footer>
     
 </body>
 </html>
