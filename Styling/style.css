@@ -160,7 +160,7 @@
 #sec-left-bottom{
     /* border: 2px solid white; */
     font-weight: normal;
-    font-size: 20px;
+    font-size: 19px;
     color: rgb(172,173,185);
     margin: 3px;
     margin-top: 30px;
@@ -186,8 +186,57 @@
     border-radius: 3px;
     padding: 18px 22px;
     text-decoration: none;
+    position: relative;
+    top: 10px;
 
 }
 #sec-left-signup-s:hover{
     background-color: rgb(24, 119, 227) ;
+}
+#sec-down{
+    z-index: 0;
+    background-color: white;
+}
+#sec-2{
+    display: flex;
+    justify-content: center;
+    /* flex-direction: row; */
+    /* border: 2px solid black; */
+}
+.sec-2-d{
+    margin: 10px;
+}
+#sec-2-left{
+    position: relative;
+    right: 90px;
+    bottom: 140px;
+    z-index: -1;
+}
+#sec-2-mid{
+    position: relative;
+    bottom: 10px;
+}
+#sec-2-mid-text{
+    font-size: 24px;
+    font-weight: bold;
+    position: relative;
+    top: 15px;
+}
+#sec-2-mid-border{
+    margin: 0px 258px;
+    border: 2.5px solid rgb(97,206,166);
+    position: relative;
+    top: 30px;
+
+}
+#sec-2-right{
+    position: relative;
+    top: 40px;
+    left: 235px;
+    z-index: -1;
+}
+#sec-2-img-2{
+    transform: rotate(180deg);
+    /* position: relative;
+    left: 200px; */
 }
