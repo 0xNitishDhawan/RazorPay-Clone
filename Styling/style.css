@@ -424,6 +424,7 @@
     padding: 10px;
     text-decoration: none;
 }
+
 .sec-4-card:hover{
     box-shadow: 1px 1px 10px 4px rgba(185, 185, 185, 0.2);
 }
@@ -476,17 +477,20 @@
     align-items: center;
     width: 71.5%;
 }
+
 #sec-4-footdiv-left{
     font-weight: bold;
     color: rgb(52,68,102);
     padding: 5px;
     font-size: 14px;
 }
+
 #sec-4-footdiv-center{
     color: rgb(100,112,138);
     padding: 5px;
     font-size: 14px;
 }
+
 #sec-4-footdiv-right{
     font-weight: bold;
     color: rgb(11,114,231);
@@ -499,4 +503,188 @@
     width: 17px;
     color: rgb(11,114,231);
     right: 4px;
+}
+
+.sec-5{
+    background-image: url(https://razorpay.com/build/browser/static/x-dark-bg.0bc3bc00.svg);
+    background-repeat: no-repeat;
+    border: 7px solid blue;
+    /* height: 40vh; */
+}
+
+.sec-5-d{
+    /* justify-content: center; */
+    /* border: 2px solid black; */
+    display: flex;
+    justify-content: center;
+    height: 38vh;
+}
+
+.sec-5-d1{
+    /* justify-content: center; */
+    /* border: 2px solid black; */
+    /* align-items: center; */
+    align-self:last baseline;
+    /* align-content: center; */
+    /* display: flex;
+    justify-content: center; */
+}
+
+#sec-5-d1-text{
+    font-size: 24px;
+    font-weight: bold;
+    color: white;
+}
+
+#sec-5-d1-border{
+    margin: 0px 258px;
+    border: 2.5px solid rgb(97, 206, 166);
+    position: relative;
+    top: 15px;
+}
+
+.sec-5-d2{
+    /* color: white; */
+    /* border: 4px solid red; */
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+}
+
+
+.sec-5-card {
+    width: 72.5%;
+    height: 72vh;
+    border: 2px solid rgb(80,88,115);
+    /* z-index: 1; */
+    border-radius: 9px;
+    padding: 5px;
+    display: flex;
+    /* background-color: black; */
+    justify-content: center;
+    position: relative;
+    bottom: 2px;
+    right: 10px;
+}
+
+.sec-5-text {
+    width: 800px;
+    background-color: rgb(24,28,46);
+    /* border: 2px solid white; */
+    /* z-index: 0; */
+    color: white;
+}
+
+.sec-5-top {
+    margin: 20px 0px;
+    margin-top: 40px;
+    font-weight: bold;
+    font-family: 'Poppins', sans-serif;
+    font-size: 26px;
+    letter-spacing: 1px;
+    line-height: 40px;
+    /* border: 2px solid white; */
+    width: 530px;
+    /* color: white; */
+    display: inline-block;
+    position: relative;
+    left: 50px;
+    z-index: 2;
+}
+
+#sec-5-top-blue {
+    color: rgb(48, 135, 234);
+}
+
+.sec-5-top-t {
+    display: inline-block;
+}
+
+#sec-5-top-img{
+    position: relative;
+    width: 170px;
+    top: 7px;
+}
+
+.sec-5-mid {
+    margin: 20px 50px;
+}
+
+.sec-5-mid-items {
+    text-decoration: none;
+    list-style: none;
+    padding: 7px;
+    padding-right: 10px;
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+}
+
+#sec-5-mid-i {
+    color: rgb(24,28,46);
+    border: 2px solid rgb(140, 225, 205);
+    content: " ";
+    margin-right: 25px;
+    border-left: 0px;
+    width: 10px;
+    border-top: 0px;
+    display: inline-block;
+    transform: rotate(45deg);
+}
+
+.sec-5-bottom {
+    margin: 40px;
+    display: flex;
+    justify-content: flex-start;
+    margin-left: 40px;
+}
+
+.sec-5-bottom-left {
+    margin: 10px;
+    padding: 15px 20px;
+    border-radius: 4px;
+    position: relative;
+    bottom: 20px;
+    background-color: rgb(43, 132, 234);
+}
+
+.sec-5-bottom-left a {
+    color: white;
+    font-weight: 500;
+    text-decoration: none;
+}
+
+.sec-5-bottom-right {
+    /* border: 2px solid black; */
+    margin: 10px;
+    padding: 10px;
+    position: relative;
+    bottom: 20px;
+    right: 5px;
+}
+
+.sec-5-bottom-right a {
+    color: rgb(43, 132, 234);
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 14px;
+}
+#sec-5-bottom-right-svg{
+    width: 17px;
+    position: relative;
+    top: 4px;
+}
+
+.sec-5-img {
+    width: 600px;
+    background-color: white;
+    z-index: 1;
+    display: flex;
+}
+
+#sec-5-img-i {
+    width: 600px;
+    background-color: rgb(24,28,46);
+    position: relative;
+    right: 20px;
+    border: 2px solid white;
 }
