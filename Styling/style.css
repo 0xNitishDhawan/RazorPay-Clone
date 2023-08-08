@@ -571,6 +571,8 @@
     width: 800px;
     background-color: rgb(24,28,46);
     /* border: 2px solid white; */
+    position: relative;
+    left: 25px;
     /* z-index: 0; */
     color: white;
 }
@@ -608,6 +610,7 @@
 
 .sec-5-mid {
     margin: 20px 50px;
+    color: rgb(167,195,204);
 }
 
 .sec-5-mid-items {
@@ -668,23 +671,96 @@
     text-decoration: none;
     font-size: 14px;
 }
+
 #sec-5-bottom-right-svg{
     width: 17px;
     position: relative;
     top: 4px;
 }
 
+.sec-5-d3{
+
+    display: flex;
+    justify-content: center;
+
+}
+
 .sec-5-img {
     width: 600px;
-    background-color: white;
+    /* background-color: white; */
     z-index: 1;
     display: flex;
 }
+
+
+.sec-5-carddiv{
+    /* border: 3px solid red; */
+    display: grid;
+    grid-template-columns: repeat(3,370px);
+    width: 70%;
+    align-self: center;
+    position: relative;
+    right: 20px;
+    /* margin: 0px 220px; */
+}
+
+.sec-5-card{
+    border: 1px solid rgb(236,237,240);
+    box-sizing: border-box;
+    /* box-shadow: 0 0px 8px 0 rgba(198, 198, 198, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); */
+    border-radius: 7px;
+    width: 330px;
+    margin: 10px;
+    /* align-items: safe; */
+    padding: 10px;
+    text-decoration: none;
+}
+
+.sec-5-card:hover{
+    box-shadow: 1px 1px 10px 4px rgba(185, 185, 185, 0.2);
+}
+
+.sec-5-card-top{
+    font-weight: bold;
+    letter-spacing: 0.1px;
+    /* border: 2px solid blueviolet; */
+    color: rgb(22,47,86);
+    font-size: 21px;
+    padding: 10px;
+}
+
+.sec-5-card-mid{
+    /* font-weight: bold; */
+    /* letter-spacing: 0.1px; */
+    /* border: 2px solid blueviolet; */
+    color: rgb(129,133,151);
+    font-size: 16px;
+    /* font-weight:400; */
+    padding: 10px;
+    line-height: 22px;
+    width: 93%;
+}
+
+.sec-5-card-bottom{
+    /* font-weight: bold; */
+    /* letter-spacing: 0.1px; */
+    color: rgb(11,114,231);
+    /* border: 2px solid blueviolet; */
+    font-size: 15px;
+    font-weight:500;
+    padding: 10px;
+}
+
+#sec-5-card-1{
+    width: 88%;
+}
+
+
 
 #sec-5-img-i {
     width: 600px;
     background-color: rgb(24,28,46);
     position: relative;
     right: 20px;
-    border: 2px solid white;
+    /* border: 2px solid white; */
 }
