@@ -982,7 +982,6 @@
     background-image: url(https://razorpay.com/build/browser/static/features-bg.61935438.svg);
     background-repeat: no-repeat;
     background-size: 100% 90%;
-    /* border: 2px solid black; */
     display: flex;
     position: relative;
     bottom: 160px;
@@ -1064,4 +1063,189 @@
     font-size: 16px;
     letter-spacing: 0.1px;
     line-height: 24px;
+}
+
+.sec-8{
+    border: 3px solid red;
+    background-color: rgb(245,248,254);
+    margin-top: -450px;
+}
+
+#sec-8-card{
+    display: flex;
+    justify-content: center;
+    padding-top: 170px;
+    border: 2px solid black;
+}
+
+#sec-8-left{
+    padding: 137px 7px;
+    border: 2px solid black;
+    width: 630px;
+    display: flex;
+    flex-direction: column;
+}
+
+#sec-8-left-top{
+    font-weight: bold;
+    font-size: 24px;
+    margin-bottom: 13px;
+    color: rgb(2,4,42);
+}
+
+#sec-8-left-border{
+    border: 2.5px solid rgb(97,206,166);
+    width: 26px;
+    margin-bottom: 29px;
+}
+
+#sec-8-left-texttop{
+    margin-bottom: 28px;
+    line-height: 24px;
+    font-size: 16px;
+    letter-spacing: 0.3px;
+}
+
+#sec-8-left-textdown{
+    font-size: 16px;
+    margin-bottom: 28px;
+    line-height: 24px;
+}
+
+#sec-8-left-btn{
+    background-color: rgb(43,132,234);
+    border-radius: 4px;
+    width: 150px;
+    height: 50px;
+    color: white;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 16px;
+}
+
+#sec-8-left-btn-text{
+    position: relative;
+    bottom: 2px;
+}
+
+#sec-8-left-btn-arrow{
+    width: 20px;
+    color: white;
+    position: relative;
+    top: 4px;
+    left: 2px;
+}
+
+#sec-8-flowing-img{
+    border: 2px solid black;
+    width: 460px;
+    /* overflow: hidden; */
+    /* background: url(https://razorpay.com/build/browser/static/merchants.204d7741.png); */
+    /* position: relative;
+    bottom: 500px; */
+
+    /* display: flex; */
+    /* animation: marquee 5s linear infinite; */
+    /* animation: slide 3s linear infinite; */
+}
+
+#sec-8-img{
+    width:450px
+}
+
+
+
+
+
+
+
+
+.sec-9{
+    display: flex;
+    justify-content: center;
+    border: 3px solid blue;
+}
+
+#sec-9-card{
+    /* border: 2px solid black; */
+    margin-top: 98px;
+}
+
+#sec-9-top{
+    /* border: 2px solid red; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#sec-9-top p{
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 28.8px;
+}
+
+#sec-9-top-border{
+    border: 2px solid rgb(97,206,166);
+    width: 25px;
+}
+
+#sec-9-mid{
+    /* border: 2px solid red; */
+    width: 200px;
+    height: 150px;
+    position: absolute;
+}
+
+#sec-9-mid img{
+    width: 200px;
+    height: 150px;
+    position: relative;
+    right: 450px;
+    bottom: 30px;
+}
+
+#sec-9-bottom{
+    /* border: 2px solid red; */
+    height: 450px;
+}
+
+
+
+
+
+.sec-10{
+    /* background-image: url(https://razorpay.com/build/browser/static/footer-head-bg.990e26df.svg); */
+    /* background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-position-x: 20px; */
+    display: flex;
+    justify-content: center;
+    border: 4px solid rgb(58, 7, 7);
+    background-color: rgb(202, 167, 234);
+    /* margin: 10px; */
+    height: 60vh;
+}
+
+#sec-10-card{
+    border: 3px solid blue;
+    display: flex;
+    justify-content: center;
+}
+
+#sec-10-left{
+    border: 3px solid black;
+}
+
+#sec-10-top{
+    width: 500px;
+    font-size: 24;
+    
+}
+
+#sec-10-right{
+    border: 3px solid black;
+
 }
