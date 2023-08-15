@@ -511,9 +511,6 @@
     background-repeat: no-repeat;
     background-size: 2500px 1750px;
     background-position-x:22%;
-
-    /* border: 7px solid blue; */
-    /* height: 40vh; */
 }
 
 .sec-5-d{
@@ -979,4 +976,92 @@
     height: 283px;
     position: relative;
     top: 40px;
+}
+
+.sec-7{
+    background-image: url(https://razorpay.com/build/browser/static/features-bg.61935438.svg);
+    background-repeat: no-repeat;
+    background-size: 100% 90%;
+    /* border: 2px solid black; */
+    display: flex;
+    position: relative;
+    bottom: 160px;
+    justify-content: center;
+}
+
+#sec-7-bigdiv{
+    /* border: 2px solid black; */
+    margin-top: 150px;
+    /* border: 2px solid black; */
+    margin-bottom: 150px;   
+    position: relative;
+    bottom: 87px;
+}
+
+#sec-7-upperdiv{
+    /* border: 2px solid red; */
+    margin-top: 100px;
+    width: 450px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 150px auto;
+    margin-bottom: 0px;
+    flex-direction: column;
+}
+
+#sec-7-u-upper{
+    /* border: 4px solid rgb(97,206,166); */
+    display: flex;
+    justify-content: center;
+    font-size: 24px;
+    color: white;
+    font-weight: bold;
+}
+
+#sec-7-u-mid{
+    border: 2.5px solid rgb(97,206,166);
+    width: 26px;
+    margin: 15px 5px;
+}
+
+#sec-7-u-lower{
+    /* border: 4px solid rgb(97,206,166); */
+    color: white;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+#sec-7-lowerdiv{
+    /* border: 2px solid red; */
+    display: grid;
+    grid-template-columns: repeat(4,auto);
+}
+
+.sec-7-lowerdiv-cards{
+    height: 250px;
+    width: 250px;
+    padding: 20px;
+    /* border: 2px solid red; */
+    color: white;
+    margin: 15px;
+}
+
+.sec-7-lowerdiv-cards-upper{
+    margin-bottom: 12px;
+}
+
+.sec-7-lowerdiv-cards-mid{
+    margin-bottom: 14px;
+    font-weight: bold;
+    font-size: 18px;
+    margin-top: 12px;
+}
+
+.sec-7-lowerdiv-cards-lower{
+    margin-top: 14px;
+    font-size: 16px;
+    letter-spacing: 0.1px;
+    line-height: 24px;
 }
